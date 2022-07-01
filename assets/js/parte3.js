@@ -27,10 +27,12 @@ const validarPassword = (password) => {
             if (password === psw1) {
                 psw_uno_correcto = true
                 mensaje.textContent = 'password 1 correcto'
+                mensaje.style.color= "green"
                 instruccion.textContent = "Ingresa el password 2"
                 return
             } else {
                 mensaje.textContent = 'password 1 incorrecto'
+                mensaje.style.color= "crimson"
                 return
             }
         }
@@ -41,6 +43,7 @@ const validarPassword = (password) => {
             if (password === psw2) {
                 psw_dos_correcto = true
                 mensaje.textContent = 'password 2 correcto'
+                mensaje.style.color= "green"
                 setTimeout( () => {
                     mensaje.textContent = ""
                     instruccion.textContent = "Ingresa el password 1"
@@ -50,6 +53,7 @@ const validarPassword = (password) => {
                 }, 2000)
             } else {
                 mensaje.textContent = 'password 2 incorrecto'
+                mensaje.style.color= "crimson"
                 return
             }
         }
