@@ -1,9 +1,11 @@
+/* Parte 1 */
 .p1-imagen-adl {
     margin-top: 10rem;
     display: flex;
     justify-content: center;
 }
 
+/* Parte 2 */
 .p2-container {
     display: flex;
     flex-direction: column;
@@ -31,4 +33,25 @@
 
 .p2-envio {
     margin-top: 10px;
+}
+
+/* Parte 3 */
+.p3-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p3-password-fields{
+    display: flex;
+    column-gap: 10px;
+}
+
+.p3-procesar{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
