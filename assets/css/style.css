@@ -3,3 +3,32 @@
     display: flex;
     justify-content: center;
 }
+
+.p2-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p2-imganees {
+    display: flex;
+    gap: 10px
+}
+
+.p2-container article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.p2-container article img {
+    height: 300px;
+    width: 400px;
+}
+
+.p2-envio {
+    margin-top: 10px;
+}
